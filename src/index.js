@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
+import { Card, CardContent } from "./components/ui/card"; // Change path as per your file structure
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs"; // Change path as per your file structure
+import { Button } from "./components/ui/button"; // Change path as per your file structure
+import { Textarea } from "./components/ui/textarea"; // Change path as per your file structure
 
 const syllabus = {
   physics: [
