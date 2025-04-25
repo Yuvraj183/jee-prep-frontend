@@ -59,7 +59,7 @@ const App = () => {
   const solveDoubt = async () => {
     setSolution("Solving your doubt...");
     try {
-      const response = await fetch("https://your-backend-api.com/solve", {
+      const response = await fetch("https://jee-prep-backend.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ doubt })
